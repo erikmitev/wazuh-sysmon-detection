@@ -15,6 +15,11 @@ Home lab SIEM using Wazuh to detect PowerShell activity via Sysmon on a Windows 
 5. Created custom rule 100001 to detect PowerShell execution.
 6. Simulated attack techniques and verified alerts.
 
+## Screenshots
+![Events](events.png)
+![Custom Rule](rule-100001.png)
+![High Severity Rule](rule-92213.png)
+![Event Details](event-details.png)
 
 ## Result
 Custom PowerShell detection rule working against real Sysmon telemetry.
